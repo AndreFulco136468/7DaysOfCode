@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="firstday.js"></script>
+    
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <div  class="container">
+        <h1 id="esconde" >Cadastro de Participante</h1>
+        <h2 id="esconde">Qual seu Nome, Idade e Curso?</h2>
+        <form >
+             nome: <input class="entrada" id="nome" type="text" onkeydown="recebeNome()"><br>
+             idade: <input class="entrada" id="idade" type="text" onkeydown="recebeidade()"><br>
+             curso: <input class="entrada" id="curso" type="text" onkeydown="recebeCurso()"><br>
+        </form>
+        <button onclick="saudacao()"  id="Salvar" class="botao">Salvar</button>
+        
+    </div>
+    <h2 class="container" id="saudacao"></h2>
+        <p></p>
+    <script src="firstday.js"></script>
     
 </body>
 </html>

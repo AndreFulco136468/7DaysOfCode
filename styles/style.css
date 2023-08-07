@@ -1,0 +1,26 @@
+
+
+*{
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.entrada{
+    margin: 10px;
+}
+
+.botao { 
+    gap:10px
+}
+
+.esconde{
+    color: white;
+}
